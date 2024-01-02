@@ -24,43 +24,43 @@ export const Typographi=({children,component:Component="div",variant="body-base"
     
     switch(variant){
         case "h1":
-            variantStyle="text-7xl"
+            variantStyle="text-7xl font-bold"
             break
         case "h2":
-            variantStyle="text-6xl"
+            variantStyle="text-6xl font-bold"
             break
         case "h3":
-            variantStyle="text-5xl"
+            variantStyle="text-5xl font-bold"
             break
         case "h4":
-            variantStyle="text-4xl"
+            variantStyle="text-4xl font-bold"
             break
         case "h5":
-            variantStyle="text-3xl"
+            variantStyle="text-3xl font-bold"
             break
         case "lead":
-            variantStyle="text-2xl"
+            variantStyle="text-2xl font-bold"
             break
         case "body-lg":
-            variantStyle="text-xl"
+            variantStyle="text-xl font-bold"
             break
         case "body-base":
-            variantStyle="text-base"
+            variantStyle="text-base font-bold"
             break
         case "body-sm":
-            variantStyle="text-sm"
+            variantStyle="text-sm font-bold"
             break
         case "caption-1":
-            variantStyle="text-caption1"
+            variantStyle="text-caption1 font-bold"
             break
         case "caption-2":
-            variantStyle="text-caption2"
+            variantStyle="text-caption2 font-bold"
             break
         case "caption-3":
-            variantStyle="text-caption3"
+            variantStyle="text-caption3 font-bold"
             break
         case "caption-4":
-            variantStyle="text-caption4"
+            variantStyle="text-caption4 font-bold"
             break
     }
 

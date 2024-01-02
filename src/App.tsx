@@ -10,6 +10,7 @@ import { StarCraft } from './pages/StarCraft/StarCraft'
 import { Plus } from './pages/Plus/Plus'
 import { HeroBarre } from './components/HeroBarre/HeroBarre'
 import { Footer } from './components/Footer/Footer'
+import { HeroBanner } from './components/HeroBanner/HeroBanner'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className='bg-background-900'>
     <BrowserRouter>
+    <HeroBanner/>
     <HeroBarre/>
     <Routes>
       <Route path='/' element={<Home/>} />
