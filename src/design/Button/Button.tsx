@@ -2,15 +2,13 @@ import clsx from "clsx"
 
 interface PropsButton{
     size?:"small"|"medium"|"large"
+    children?:React.ReactNode
+    color?:"primary"|"secondary"|"transparent"
 }
 
+export const Button =({size="medium",children,color}:PropsButton)=>{
 
-
-
-
-export const Button =({size="medium"}:PropsButton)=>{
-
-    let varianteSize:string=""
+    let varianteSize:string="",colorVariant:string="primary"
 
 
     switch(size){
@@ -25,11 +23,23 @@ export const Button =({size="medium"}:PropsButton)=>{
             break
     }
 
+    switch(color){
+        case"primary":
+            colorVariant="bg-primary-500"
+            break
+        case"secondary":
+            colorVariant="bg-secondary-500"
+            break
+        case"transparent":
+            colorVariant="bg-transparent"
+            break
+    }
+
 
 
     return(
         <button className={clsx(varianteSize)}>
-
+            {children}
         </button>
     )
 }
