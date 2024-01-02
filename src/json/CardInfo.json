@@ -1,0 +1,95 @@
+{
+    "cardInfo":
+    [
+        {
+            "id":0,
+            "gameName":"call of duty",
+            "logo":"src/assets/ico-svg/callof.svg",
+            "title":"call of duty",
+            "image":"src/assets/images-card/44.jpg",
+            "descrtion":"Achetez Call of Duty®: Modern Warfare® III et jouez à la Saison 1 dès maintenant !",
+            "price":"59€99"
+        },
+        {
+            "id":1,
+            "gameName":"call of duty",
+            "logo":"src/assets/ico-svg/callof.svg",
+            "title":"call of duty",
+            "image":"src/assets/images-card/CODHQ_CP.jpg",
+            "descrtion":"Utilisez vos PC pour obtenir le Passe de combat !",
+            "price":"9€99"
+        },
+        {
+            "id":2,
+            "gameName":"overwatch 2",
+            "logo":"src/assets/ico-svg/Overwatch2_(1).svg",
+            "title":"overwatch 2",
+            "image":"src/assets/images-card/Coins.webp",
+            "descrtion":"Avec vos pièces Overwatch, obtenez le passe de combat premium et plus encore !",
+            "price":"19€99"
+        },
+        {
+            "id":3,
+            "gameName":" overwatch 2",
+            "logo":"src/assets/ico-svg/Overwatch2_(1).svg",
+            "title":"overwatch 2",
+            "image":"src/assets/images-card/OW2_2023_S08_Ultimate.jpg",
+            "descrtion":"Obtenez le passe de combat premium de la saison 8 pour Overwatch 2, 20 sauts de rang, les modèles légendaires Mauga Magma et Fatale traqueuse sauvage, 2 000 pièces OW et plus !",
+            "price":"9€99"
+        },
+        {
+            "id":4,
+            "gameName":"overwatch 2",
+            "logo":"src/assets/ico-svg/Overwatch2_(1).svg",
+            "title":"overwatch 2",
+            "image":"src/assets/images-card/OW2_2023_S8.jpg",
+            "descrtion":"Prenez une longueur d avance dans la saison en profitant de 1 000 pièces et de Moira Magma !",
+            "price":"49€99"
+        },
+        {
+            "id":5,
+            "gameName":"warcraft",
+            "logo":"src/assets/ico-svg/world-of-warcraft.svg",
+            "title":"warcraft",
+            "image":"src/assets/images-card/Race_Change.webp",
+            "descrtion":"Également disponible dans plusieurs packs.",
+            "price":"59€99"
+        },
+        {
+            "id":6,
+            "gameName":"warcraft",
+            "logo":"src/assets/ico-svg/world-of-warcraft.svg",
+            "title":"warcraft",
+            "image":"src/assets/images-card/WoW_11.0.webp",
+            "descrtion":"Inclut l extension Dragonflight saluée par la critique.",
+            "price":"9€99"
+        },
+        {
+            "id":7,
+            "gameName":"warcraft",
+            "logo":"src/assets/ico-svg/world-of-warcraft.svg",
+            "title":"warcraft",
+            "image":"src/assets/images-card/WoW_AzurePack.jpg",
+            "descrtion":"Profitez d une réduction cosmique sur ce pack !",
+            "price":"19€99"
+        },
+        {
+            "id":8,
+            "gameName":"warcraft",
+            "logo":"src/assets/ico-svg/world-of-warcraft.svg",
+            "title":"warcraft",
+            "image":"src/assets/images-card/wow-modern.webp",
+            "descrtion":"Également disponible dans plusieurs packs.",
+            "price":"9€99"
+        },
+        {
+            "id":9,
+            "gameName":"call of duty",
+            "logo":"src/assets/ico-svg/callof.svg",
+            "title":"call of duty",
+            "image":"src/assets/images-card/WoW_11-0_RevisedBoost.jpg",
+            "descrtion":"Obtenez le Sésame amélioré et préparez-vous au contenu de haut niveau de Dragonflight !",
+            "price":"59€99"
+        }
+    ]
+}

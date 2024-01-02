@@ -1,0 +1,29 @@
+{
+    "image":
+    [
+        {
+            "id":0,
+            "img":"src/assets/images/DIA.jpg"
+        },
+        {
+            "id":1,
+            "img":"src/assets/images/CODMW3.jpg"
+        },
+        {
+            "id":2,
+            "img":"src/assets/images/BC23.jpg"
+        },
+        {
+            "id":3,
+            "img":"src/assets/images/OW2.jpg"
+        },
+        {
+            "id":4,
+            "img":"src/assets/images/Wow.webp"
+        },
+        {
+            "id":5,
+            "img":"src/assets/images/WR.webp"
+        }
+    ]
+}
