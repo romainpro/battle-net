@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import { Typographi } from "../../design/Typographi/Typographi"
+import { Button } from "../../design/Button/Button"
 
 export const Footer=()=>{
     return(
@@ -10,8 +11,8 @@ export const Footer=()=>{
             <Typographi variant="h3">Partez à l aventure</Typographi>
             <Typographi variant="body-base">Téléchargez Battle.net et rejoignez l immense communauté.</Typographi>
             <div className=" space-x-10">
-                <button className="bg-primary-500 w-[500px] h-[75px] rounded-md"> <Typographi variant="h5">Telecharger pour Windows</Typographi></button>
-                <button className="bg-background-500 h-[75px] w-[225px] rounded-md" ><Typographi variant="lead">Savoir Plus</Typographi> </button>
+                <Button size="large">Telecharger pour Windows</Button>
+                <Button size="medium" color="secondary"  >Savoir Plus</Button>
             </div>
             <Typographi variant="caption-3">Également disponible sur </Typographi>
             </div>    
