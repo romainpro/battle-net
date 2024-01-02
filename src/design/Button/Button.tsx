@@ -1,7 +1,17 @@
-export const Button =()=>{
+import clsx from "clsx"
+
+interface PropsButton{
+    size?:"small"|"medium"|"large"
+}
+
+
+
+
+
+export const Button =({size="medium"}:PropsButton)=>{
     return(
-        <button>
-            
+        <button className={clsx()}>
+
         </button>
     )
 }
